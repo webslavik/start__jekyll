@@ -1,0 +1,11 @@
+{
+  "name": "start-project",
+  "version": "0.0.1",
+  "dependecies": {},
+  "devDependencies": {
+    "svg4everybody": "^2.1.0",
+    "bourbon": "^4.2.7",
+    "jquery": "^3.1.1",
+    "breakpoint-sass": "^2.7.0"
+  }
+}

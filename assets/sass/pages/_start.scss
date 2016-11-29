@@ -1,0 +1,178 @@
+.page-wrap {
+}
+
+
+.page-title {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+
+.svg-sprites-section{
+  margin-bottom: 80px;
+	text-align: center;
+}
+
+/* Стили для SVG  иконок */
+.icon {
+	margin: 0 20px;
+}
+
+.icon-face {
+  font-size: rem(32);
+  width: 1.20833em; 
+
+  &.face-mod {
+  	fill: grey;
+  }
+
+}
+
+.icon-smartphone {
+  font-size: rem(48);
+  width: 1em; 
+
+  &.smartphone-mod {
+  	fill: purple;
+  }
+
+}
+
+.icon-youtube-4 {
+  font-size: rem(58);
+  width: 1em;
+
+  &.youtube4-mod {
+  	fill: tomato;
+  	transition: all 180ms ease-in-out;
+
+  	&:hover,
+	  &:active {
+	  	fill: red;
+	  }
+  }
+
+}
+
+.icon-gamepad {
+  font-size: rem(120);
+  width: 1em; 
+
+   &.gamepad-mod {
+  	color: lightblue;
+  	transition: all 180ms ease-in-out;
+
+  	&:hover,
+	  &:active {
+	 		color: grey;
+	  }
+  }
+
+}
+
+
+.icon-placeholder {
+  font-size: rem(140);
+  width: 1em; 
+}
+
+
+.icon-brainstorm {
+  font-size: rem(200);
+  width: 1em; 
+
+
+	&.brainstorm-mod {
+		color: red;
+		transition: all 180ms ease-in-out;
+
+		&:hover,
+	  &:active {
+	  	color: purple;
+	  }
+	}
+}
+
+
+
+/* Стили для PNG  иконок */
+.png-sprites-section {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+
+.icon-png {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: middle;
+
+  &__flashlight {
+    @include sprite($icon-flashlight);
+
+    &:hover,
+    &:focus {
+      @include sprite($icon-flashlight-mod);
+    }
+  }
+
+  &__instagram {
+    @include sprite($icon-instagram);
+
+    &:hover,
+    &:focus {
+      @include sprite($icon-instagram-mod);
+    }
+  }
+
+  &__weather {
+    @include sprite($icon-weather);
+  }
+
+  &__whatsapp {
+    @include sprite($icon-whatsapp);
+
+    &:hover,
+    &:focus {
+      @include sprite($icon-whatsapp-mod);
+    }
+  }
+}
+
+
+
+
+.block-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  background-color: #3498db;
+
+  li {
+    @include span(3);
+    background-color: #1abc9c;
+    margin-bottom: 20px;
+  }
+
+  @include breakpoint($desktop) {
+    li {
+      @include span(4);
+      background-color: #f39c12;
+    }
+  }
+
+  @include breakpoint($tablet) {
+    li {
+      @include span(6);
+      background-color: #e74c3c;
+    }
+  }
+
+  @include breakpoint($mobile) {
+    li {
+      @include span(12);
+      background-color: #8e44ad;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+
+// Фреймфорк по необходимости*
+
+
+// Библиотека полезных миксинов
+@import '../libs/bourbon/app/assets/stylesheets/_bourbon.scss'
+
+// Медиа запросы
+@import '../libs/breakpoint-sass/stylesheets/breakpoint'
+
+
+
+// Основные переменные для проекта
+@import 'variables'
+
+
+// Находятся миксины или вспомогательные стили для создания спрайтов
+// @import 'mixins/example-mixins.scss'
+
+
+// Модули
+// @import 'modules/fonts'
+@import 'modules/basic-elements'
+@import 'modules/svg-sprite'
+@import 'modules/grid'
+@import 'modules/buttons'
+
+
+// Эта папка включает в себя повторяющиеся "куски" страницы,
+// такие как footer, header, sidebar и тд.
+//---------------------------------------------
+@import 'sections/header'
+@import 'sections/footer'
+
+
+// Стили для каждой страницы
+//---------------------------------------------
+// @import 'pages/start'

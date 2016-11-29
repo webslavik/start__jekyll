@@ -1,0 +1,12 @@
+name: Slavik Sukhanov
+# markdown: redcarpet
+highlighter: rouge # or pygments or null
+exclude: [
+  "node_modules", 
+  "gulpfile.js", 
+  "package.json", 
+  "assets/sass",
+  "readme.md",
+  "bower.json",
+  "assets/libs"
+  ]

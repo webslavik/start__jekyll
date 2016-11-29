@@ -1,0 +1,106 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  min-width: 320px;
+  position: relative;
+  line-height: 1.5;
+  font-family: "OpenSansRegular", sans-serif;
+  background-color: #fff;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%; }
+
+img {
+  max-width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+/* 
+	-------------------------------------------
+	svg спрайт
+	-------------------------------------------
+*/
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor; }
+
+.icon-brainstorm {
+  font-size: 29.6429rem;
+  width: 1em; }
+
+.icon-face {
+  font-size: 2.4rem;
+  width: 1.20833em; }
+
+.icon-gamepad {
+  font-size: 30rem;
+  width: 1em; }
+
+.icon-placeholder {
+  font-size: 29.9997rem;
+  width: 1em; }
+
+.icon-smartphone {
+  font-size: 3.5rem;
+  width: 1em; }
+
+.icon-youtube-4 {
+  font-size: 2.4rem;
+  width: 1em; }
+
+/* 
+	-------------------------------------------
+	GRID
+	-------------------------------------------
+*/
+.page-wrap {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.container {
+  position: relative;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto; }
+
+/* 
+	-------------------------------------------
+	BUTTONS
+	-------------------------------------------
+*/
+/* 
+	-----------------------------------------------
+		HEADER
+	-----------------------------------------------
+*/
+.header {
+  padding: 20px 0px;
+  background-color: #F44336; }
+
+/* 
+	-----------------------------------------------
+		FOOTER
+	-----------------------------------------------
+*/
+.footer {
+  padding: 20px 0;
+  background-color: #673AB7; }
